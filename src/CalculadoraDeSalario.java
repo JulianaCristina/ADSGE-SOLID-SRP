@@ -1,6 +1,8 @@
 
 public class CalculadoraDeSalario {
 	
+	
+	
 	public double calcula(Funcionario funcionario) {
 		
 		funcionario.getCargo().getRegra().calcula(funcionario);
